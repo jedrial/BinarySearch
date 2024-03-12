@@ -14,6 +14,10 @@ public class BinarySearch {
 	 * @return index of target, -1 if not there
 	 */
 	public static int binarySearch(int[] array, int target) {
+		
+		Arrays.sort(array);
+
+		
 		int min = 0;
 		int max = array.length - 1;
 		
