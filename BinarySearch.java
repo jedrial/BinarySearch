@@ -17,7 +17,6 @@ public class BinarySearch {
 		
 		Arrays.sort(array);
 
-		
 		int min = 0;
 		int max = array.length - 1;
 		
